@@ -167,7 +167,6 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _answerText = answer.answerText;
       _contextController.selection = _getSelectedText(_answerText);
-      _contextController.j
     });
   }
 
